@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B67D2FD148CC60200FDF13F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B67D2FC148CC60200FDF13F /* Foundation.framework */; };
+		1B67D303148CC60200FDF13F /* DZUIApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B67D302148CC60200FDF13F /* DZUIApplication.m */; };
+		1B67D30B148CC60200FDF13F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B67D30A148CC60200FDF13F /* SenTestingKit.framework */; };
+		1B67D30D148CC60200FDF13F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B67D30C148CC60200FDF13F /* UIKit.framework */; };
+		1B67D30E148CC60300FDF13F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B67D2FC148CC60200FDF13F /* Foundation.framework */; };
+		1B67D311148CC60300FDF13F /* libDZUIApplication.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B67D2F9148CC60200FDF13F /* libDZUIApplication.a */; };
+		1B67D317148CC60300FDF13F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B67D315148CC60300FDF13F /* InfoPlist.strings */; };
+		1B67D31A148CC60300FDF13F /* DZUIApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B67D319148CC60300FDF13F /* DZUIApplicationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B67D30F148CC60300FDF13F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B67D2F0148CC60200FDF13F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B67D2F8148CC60200FDF13F;
+			remoteInfo = DZUIApplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B67D2F9148CC60200FDF13F /* libDZUIApplication.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDZUIApplication.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B67D2FC148CC60200FDF13F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1B67D300148CC60200FDF13F /* DZUIApplication-Prefix.pch */ = {isa = PBXFileReference; path = "DZUIApplication-Prefix.pch"; sourceTree = "<group>"; };
+		1B67D301148CC60200FDF13F /* DZUIApplication.h */ = {isa = PBXFileReference; path = DZUIApplication.h; sourceTree = "<group>"; };
+		1B67D302148CC60200FDF13F /* DZUIApplication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZUIApplication.m; sourceTree = "<group>"; };
+		1B67D309148CC60200FDF13F /* DZUIApplicationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZUIApplicationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B67D30A148CC60200FDF13F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1B67D30C148CC60200FDF13F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1B67D314148CC60300FDF13F /* DZUIApplicationTests-Info.plist */ = {isa = PBXFileReference; path = "DZUIApplicationTests-Info.plist"; sourceTree = "<group>"; };
+		1B67D316148CC60300FDF13F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B67D318148CC60300FDF13F /* DZUIApplicationTests.h */ = {isa = PBXFileReference; path = DZUIApplicationTests.h; sourceTree = "<group>"; };
+		1B67D319148CC60300FDF13F /* DZUIApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZUIApplicationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B67D2F6148CC60200FDF13F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B67D2FD148CC60200FDF13F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B67D305148CC60200FDF13F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B67D30B148CC60200FDF13F /* SenTestingKit.framework in Frameworks */,
+				1B67D30D148CC60200FDF13F /* UIKit.framework in Frameworks */,
+				1B67D30E148CC60300FDF13F /* Foundation.framework in Frameworks */,
+				1B67D311148CC60300FDF13F /* libDZUIApplication.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B67D2EE148CC60200FDF13F = {
+			isa = PBXGroup;
+			children = (
+				1B67D2FE148CC60200FDF13F /* DZUIApplication */,
+				1B67D312148CC60300FDF13F /* DZUIApplicationTests */,
+				1B67D2FB148CC60200FDF13F /* Frameworks */,
+				1B67D2FA148CC60200FDF13F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B67D2FA148CC60200FDF13F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B67D2F9148CC60200FDF13F /* libDZUIApplication.a */,
+				1B67D309148CC60200FDF13F /* DZUIApplicationTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B67D2FB148CC60200FDF13F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B67D2FC148CC60200FDF13F /* Foundation.framework */,
+				1B67D30A148CC60200FDF13F /* SenTestingKit.framework */,
+				1B67D30C148CC60200FDF13F /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B67D2FE148CC60200FDF13F /* DZUIApplication */ = {
+			isa = PBXGroup;
+			children = (
+				1B67D301148CC60200FDF13F /* DZUIApplication.h */,
+				1B67D302148CC60200FDF13F /* DZUIApplication.m */,
+				1B67D2FF148CC60200FDF13F /* Supporting Files */,
+			);
+			path = DZUIApplication;
+			sourceTree = "<group>";
+		};
+		1B67D2FF148CC60200FDF13F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B67D300148CC60200FDF13F /* DZUIApplication-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B67D312148CC60300FDF13F /* DZUIApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B67D318148CC60300FDF13F /* DZUIApplicationTests.h */,
+				1B67D319148CC60300FDF13F /* DZUIApplicationTests.m */,
+				1B67D313148CC60300FDF13F /* Supporting Files */,
+			);
+			path = DZUIApplicationTests;
+			sourceTree = "<group>";
+		};
+		1B67D313148CC60300FDF13F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B67D314148CC60300FDF13F /* DZUIApplicationTests-Info.plist */,
+				1B67D315148CC60300FDF13F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B67D2F7148CC60200FDF13F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B67D2F8148CC60200FDF13F /* DZUIApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B67D31D148CC60300FDF13F /* Build configuration list for PBXNativeTarget "DZUIApplication" */;
+			buildPhases = (
+				1B67D2F5148CC60200FDF13F /* Sources */,
+				1B67D2F6148CC60200FDF13F /* Frameworks */,
+				1B67D2F7148CC60200FDF13F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DZUIApplication;
+			productName = DZUIApplication;
+			productReference = 1B67D2F9148CC60200FDF13F /* libDZUIApplication.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1B67D308148CC60200FDF13F /* DZUIApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B67D320148CC60300FDF13F /* Build configuration list for PBXNativeTarget "DZUIApplicationTests" */;
+			buildPhases = (
+				1B67D304148CC60200FDF13F /* Sources */,
+				1B67D305148CC60200FDF13F /* Frameworks */,
+				1B67D306148CC60200FDF13F /* Resources */,
+				1B67D307148CC60200FDF13F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B67D310148CC60300FDF13F /* PBXTargetDependency */,
+			);
+			name = DZUIApplicationTests;
+			productName = DZUIApplicationTests;
+			productReference = 1B67D309148CC60200FDF13F /* DZUIApplicationTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B67D2F0148CC60200FDF13F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1B67D2F3148CC60200FDF13F /* Build configuration list for PBXProject "DZUIApplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1B67D2EE148CC60200FDF13F;
+			productRefGroup = 1B67D2FA148CC60200FDF13F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B67D2F8148CC60200FDF13F /* DZUIApplication */,
+				1B67D308148CC60200FDF13F /* DZUIApplicationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B67D306148CC60200FDF13F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B67D317148CC60300FDF13F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B67D307148CC60200FDF13F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B67D2F5148CC60200FDF13F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B67D303148CC60200FDF13F /* DZUIApplication.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B67D304148CC60200FDF13F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B67D31A148CC60300FDF13F /* DZUIApplicationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B67D310148CC60300FDF13F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B67D2F8148CC60200FDF13F /* DZUIApplication */;
+			targetProxy = 1B67D30F148CC60300FDF13F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B67D315148CC60300FDF13F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B67D316148CC60300FDF13F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B67D31B148CC60300FDF13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B67D31C148CC60300FDF13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B67D31E148CC60300FDF13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DZUIApplication.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DZUIApplication/DZUIApplication-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1B67D31F148CC60300FDF13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DZUIApplication.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DZUIApplication/DZUIApplication-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1B67D321148CC60300FDF13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DZUIApplication/DZUIApplication-Prefix.pch";
+				INFOPLIST_FILE = "DZUIApplicationTests/DZUIApplicationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1B67D322148CC60300FDF13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DZUIApplication/DZUIApplication-Prefix.pch";
+				INFOPLIST_FILE = "DZUIApplicationTests/DZUIApplicationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B67D2F3148CC60200FDF13F /* Build configuration list for PBXProject "DZUIApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B67D31B148CC60300FDF13F /* Debug */,
+				1B67D31C148CC60300FDF13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B67D31D148CC60300FDF13F /* Build configuration list for PBXNativeTarget "DZUIApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B67D31E148CC60300FDF13F /* Debug */,
+				1B67D31F148CC60300FDF13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B67D320148CC60300FDF13F /* Build configuration list for PBXNativeTarget "DZUIApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B67D321148CC60300FDF13F /* Debug */,
+				1B67D322148CC60300FDF13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B67D2F0148CC60200FDF13F /* Project object */;
+}
