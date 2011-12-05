@@ -44,8 +44,7 @@
 
 /*!
  
- @category UIApplication (DZUIApplication)
- @discussion UIApplication category that provides information about your application,
+ UIApplication category that provides information about your application,
  caching values using objc_setAssociatedObject.
  
  */
@@ -57,9 +56,8 @@
 
 /*!
  
- @method applicationName:
- @abstract 
- @result Returns the CFBundleName of the application.
+ Returns the CFBundleName of the application. 
+ @result CFBundleName as an NSString
  
  */
 
@@ -67,8 +65,7 @@
 
 /*!
  
- @method nameForBundle:bundle
- @abstract 
+ Returns the CFBundleName of the bundle.
  @param bundle The bundle to return a name for.
  @result Returns the CFBundleName of the bundle.
  
@@ -78,19 +75,17 @@
 
 /*!
  
- @method applicationVersion
- @abstract 
- @result Returns the version string of the application, preferring the short version string.
+ Returns the version string of the application, preferring the short version string.
+ @result The version string.
  */
 
 + (NSString *) applicationVersion;
 
 /*!
  
- @method versionForBundle:bundle
- @abstract 
+ Returns the version string of the bundle, preferring the short version string.
  @param bundle The bundle to return a name for.
- @result Returns the version string of the bundle, preferring the short version string.
+ @result The version string (i.e. "1.1.2")
  
  */
 
@@ -98,9 +93,8 @@
 
 /*!
  
- @method applicationIdentifier
- @abstract  
- @result Returns the CFBundleIdentifer string of the application.
+ Returns the CFBundleIdentifer string of the application.
+ @result The CFBundleIdentifer as an NSString
  
  */
 
@@ -108,10 +102,9 @@
 
 /*!
  
- @method identifierForBundle:bundle
- @abstract 
+ Returns the CFBundleIdentifer string of the bundle.
  @param bundle The bundle to return an identifer for. 
- @result Returns the CFBundleIdentifer string of the bundle.
+ @result The CFBundleIdentifier as an NSString
  
  */
 
