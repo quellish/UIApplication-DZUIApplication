@@ -24,9 +24,37 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testApplicationIdentifer
 {
     STFail(@"Unit tests are not implemented yet in DZUIApplicationTests");
+}
+
+- (void)testApplicationName
+{
+    //STFail(@"Unit tests are not implemented yet in DZUIApplicationTests");
+    NSLog(@" %@", [UIApplication applicationName]);
+}
+
+- (void)testApplicationVersion
+{
+    //STFail(@"Unit tests are not implemented yet in DZUIApplicationTests");
+}
+
+- (void)testIdentiferForBundle
+{
+    //STFail(@"Unit tests are not implemented yet in DZUIApplicationTests");
+    NSBundle *unitTestBundle = [NSBundle bundleForClass:[self class]];
+    NSLog(@" %@", [UIApplication identifierForBundle:unitTestBundle]);
+}
+
+- (void)testNameForBundle
+{
+    //STFail(@"Unit tests are not implemented yet in DZUIApplicationTests");
+}
+
+- (void)testVersionForBundle
+{
+    //STFail(@"Unit tests are not implemented yet in DZUIApplicationTests");
 }
 
 @end

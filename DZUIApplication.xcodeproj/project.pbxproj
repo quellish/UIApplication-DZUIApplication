@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		1B67D2FD148CC60200FDF13F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B67D2FC148CC60200FDF13F /* Foundation.framework */; };
-		1B67D303148CC60200FDF13F /* DZUIApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B67D302148CC60200FDF13F /* DZUIApplication.m */; };
 		1B67D30B148CC60200FDF13F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B67D30A148CC60200FDF13F /* SenTestingKit.framework */; };
 		1B67D30D148CC60200FDF13F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B67D30C148CC60200FDF13F /* UIKit.framework */; };
 		1B67D30E148CC60300FDF13F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B67D2FC148CC60200FDF13F /* Foundation.framework */; };
 		1B67D311148CC60300FDF13F /* libDZUIApplication.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B67D2F9148CC60200FDF13F /* libDZUIApplication.a */; };
 		1B67D317148CC60300FDF13F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B67D315148CC60300FDF13F /* InfoPlist.strings */; };
 		1B67D31A148CC60300FDF13F /* DZUIApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B67D319148CC60300FDF13F /* DZUIApplicationTests.m */; };
+		1B67D325148CC62500FDF13F /* UIApplication+DZUIApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B67D323148CC62500FDF13F /* UIApplication+DZUIApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B67D326148CC62500FDF13F /* UIApplication+DZUIApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B67D324148CC62500FDF13F /* UIApplication+DZUIApplication.m */; };
+		1B67D32E148CD26C00FDF13F /* DZUIApplicationTests.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1B67D32D148CD26C00FDF13F /* DZUIApplicationTests.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +32,18 @@
 /* Begin PBXFileReference section */
 		1B67D2F9148CC60200FDF13F /* libDZUIApplication.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDZUIApplication.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B67D2FC148CC60200FDF13F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1B67D300148CC60200FDF13F /* DZUIApplication-Prefix.pch */ = {isa = PBXFileReference; path = "DZUIApplication-Prefix.pch"; sourceTree = "<group>"; };
-		1B67D301148CC60200FDF13F /* DZUIApplication.h */ = {isa = PBXFileReference; path = DZUIApplication.h; sourceTree = "<group>"; };
-		1B67D302148CC60200FDF13F /* DZUIApplication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZUIApplication.m; sourceTree = "<group>"; };
+		1B67D300148CC60200FDF13F /* DZUIApplication-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DZUIApplication-Prefix.pch"; sourceTree = "<group>"; };
 		1B67D309148CC60200FDF13F /* DZUIApplicationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZUIApplicationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B67D30A148CC60200FDF13F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		1B67D30C148CC60200FDF13F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		1B67D314148CC60300FDF13F /* DZUIApplicationTests-Info.plist */ = {isa = PBXFileReference; path = "DZUIApplicationTests-Info.plist"; sourceTree = "<group>"; };
+		1B67D314148CC60300FDF13F /* DZUIApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DZUIApplicationTests-Info.plist"; sourceTree = "<group>"; };
 		1B67D316148CC60300FDF13F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1B67D318148CC60300FDF13F /* DZUIApplicationTests.h */ = {isa = PBXFileReference; path = DZUIApplicationTests.h; sourceTree = "<group>"; };
+		1B67D318148CC60300FDF13F /* DZUIApplicationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZUIApplicationTests.h; sourceTree = "<group>"; };
 		1B67D319148CC60300FDF13F /* DZUIApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZUIApplicationTests.m; sourceTree = "<group>"; };
+		1B67D323148CC62500FDF13F /* UIApplication+DZUIApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIApplication+DZUIApplication.h"; path = "Classes/UIApplication+DZUIApplication.h"; sourceTree = "<group>"; };
+		1B67D324148CC62500FDF13F /* UIApplication+DZUIApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+DZUIApplication.m"; path = "Classes/UIApplication+DZUIApplication.m"; sourceTree = "<group>"; };
+		1B67D32C148CD22400FDF13F /* UIApplication+DZUIApplication.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "UIApplication+DZUIApplication.xcconfig"; sourceTree = "<group>"; };
+		1B67D32D148CD26C00FDF13F /* DZUIApplicationTests.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = DZUIApplicationTests.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +101,11 @@
 		1B67D2FE148CC60200FDF13F /* DZUIApplication */ = {
 			isa = PBXGroup;
 			children = (
-				1B67D301148CC60200FDF13F /* DZUIApplication.h */,
-				1B67D302148CC60200FDF13F /* DZUIApplication.m */,
+				1B67D323148CC62500FDF13F /* UIApplication+DZUIApplication.h */,
+				1B67D324148CC62500FDF13F /* UIApplication+DZUIApplication.m */,
 				1B67D2FF148CC60200FDF13F /* Supporting Files */,
+				1B67D32C148CD22400FDF13F /* UIApplication+DZUIApplication.xcconfig */,
+				1B67D32D148CD26C00FDF13F /* DZUIApplicationTests.xcconfig */,
 			);
 			path = DZUIApplication;
 			sourceTree = "<group>";
@@ -138,6 +144,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B67D325148CC62500FDF13F /* UIApplication+DZUIApplication.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +158,7 @@
 				1B67D2F5148CC60200FDF13F /* Sources */,
 				1B67D2F6148CC60200FDF13F /* Frameworks */,
 				1B67D2F7148CC60200FDF13F /* Headers */,
+				1B67D32B148CCF8400FDF13F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -212,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B67D317148CC60300FDF13F /* InfoPlist.strings in Resources */,
+				1B67D32E148CD26C00FDF13F /* DZUIApplicationTests.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +240,19 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		1B67D32B148CCF8400FDF13F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "DOCUMENTATION_DIR=\"Documentation\"\nBUNDLE_ID=$(/usr/libexec/PlistBuddy -c \"Print :CFBundleIdentifier\" \"${BUILD_ROOT}/${INFOPLIST_PATH}\")\n\n# DOCUMENTATION_FOLDER_PATH\n\nif [ -e /usr/local/bin/appledoc ] ; then\n/usr/local/bin/appledoc --project-name $PRODUCT_NAME --output $DOCUMENTATION_DIR  --logformat xcode --exit-threshold 2 --verbose xcode --docset-bundle-filename \"$BUNDLE_ID.$PRODUCT_NAME.docset\" .\nelse\necho \"AppleDoc is not installed in /usr/local/bin , you can download it from https://github.com/tomaz/appledoc\"\nfi";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -238,7 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B67D303148CC60200FDF13F /* DZUIApplication.m in Sources */,
+				1B67D326148CC62500FDF13F /* UIApplication+DZUIApplication.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +336,7 @@
 		};
 		1B67D31E148CC60300FDF13F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B67D32C148CD22400FDF13F /* UIApplication+DZUIApplication.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/DZUIApplication.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -326,6 +349,7 @@
 		};
 		1B67D31F148CC60300FDF13F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B67D32C148CD22400FDF13F /* UIApplication+DZUIApplication.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/DZUIApplication.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -338,6 +362,7 @@
 		};
 		1B67D321148CC60300FDF13F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B67D32D148CD26C00FDF13F /* DZUIApplicationTests.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -346,6 +371,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DZUIApplication/DZUIApplication-Prefix.pch";
 				INFOPLIST_FILE = "DZUIApplicationTests/DZUIApplicationTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -353,6 +382,7 @@
 		};
 		1B67D322148CC60300FDF13F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B67D32D148CD26C00FDF13F /* DZUIApplicationTests.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -361,6 +391,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DZUIApplication/DZUIApplication-Prefix.pch";
 				INFOPLIST_FILE = "DZUIApplicationTests/DZUIApplicationTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};

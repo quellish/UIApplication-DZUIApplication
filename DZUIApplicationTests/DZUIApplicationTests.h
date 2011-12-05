@@ -7,6 +7,8 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
+#import <UIKit/UIKit.h>
+#import "UIApplication+DZUIApplication.h"
 
 @interface DZUIApplicationTests : SenTestCase
 

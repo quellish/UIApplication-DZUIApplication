@@ -1,0 +1,9 @@
+//
+//  DZUIApplicationTests.xcconfig
+//  DZUIApplication
+//
+//  Created by Dan Zinngrabe on 12/5/11.
+//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
+//
+
+OTHER_LDFLAGS = -ObjC -all_load
