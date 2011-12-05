@@ -1,0 +1,2 @@
+- Tests do not work unless run inside an application.
+- Demo application forthcoming.
